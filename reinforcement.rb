@@ -14,9 +14,9 @@ def seating(seats)
         if user_says == "y"
           puts "What is your name?"
           name = gets.chomp
+          seats[index][i] = name
+          break
         end
-      seats[index][i] = name
-      break
       end
     end
   end
